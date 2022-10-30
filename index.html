@@ -31,10 +31,18 @@
                     colors: {
                         clifford: '#da373d',
                     }
-                }
+                },
+                fontFamily: {
+                    'sans': ['ui-sans-serif', 'system-ui',],
+                    'serif': ['ui-serif', 'Georgia',],
+                    'mono': ['ui-monospace', 'SFMono-Regular',],
+                    'display': ['Oswald',],
+                    'body': ['"Open Sans"',],
+                },
             }
         }
     </script>
+
 
     <!-- daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.36.1/dist/full.css" rel="stylesheet" type="text/css" />
@@ -43,6 +51,23 @@
 </head>
 
 <body>
+
+    <!-- navbar for small screen -->
+    <div class="sticky top-0 z-50">
+        <div class="navbar bg-base-100 pt-0 relative xl:hidden">
+
+            <div class="flex-1">
+                <img src="./assets/00_shopi_logo.svg" alt="Shopify logo">
+            </div>
+            <div class="flex-none gap-2 mr-3">
+                <a class="text-lg font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Log
+                    in</a>
+            </div>
+            <div>
+                <img src="./assets/icons8-menu-rounded-90.png" alt="menu" class="h-16 w-16 ">
+            </div>
+        </div>
+    </div>
 
 </body>
 
