@@ -53,8 +53,8 @@
 <body>
 
     <!-- navbar for small screen -->
-    <div class="sticky top-0 z-50">
-        <div class="navbar bg-base-100 pt-0 relative xl:hidden">
+    <div class="sticky top-0 z-50 xl:hidden">
+        <div class="navbar bg-base-100 pt-0 relative ">
 
             <div class="flex-1">
                 <img src="./assets/00_shopi_logo.svg" alt="Shopify logo">
@@ -68,7 +68,72 @@
             </div>
         </div>
     </div>
+    <!-- navbar for large screen -->
+    <div class="sticky top-0 z-50 hidden xl:block ">
+        <div class="relative navbar bg-base-100 ">
+            <div class="flex-1">
+                <img src="./assets/00_shopi_logo.svg" alt="Shopify logo" class="ml-16 w-auto h-[73px]">
 
+                <ul class="flex ml-6 gap-5  p-0">
+                    <li class="flex"><a>
+
+                            <a
+                                class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Start</a>
+                        </a>
+                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu" class="p-0 ">
+                    </li>
+
+                    <li class="flex"><a>
+                            <a
+                                class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Sell</a>
+                        </a>
+                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu" >
+                    </li>
+
+                    <li class="flex"><a>
+                            <a
+                                class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Market</a>
+                        </a>
+                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu" >
+                    </li>
+
+                    <li class="flex"><a>
+                            <a
+                                class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Manage</a>
+                        </a>
+                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu" >
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-none">
+                <ul class="flex  gap-5 mr-5 p-0">
+                    <li>
+                        <a
+                            class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Pricing
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Learn
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                            class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Log
+                            in 
+                        </a>
+                    </li>
+                    
+            </div>
+            <div class="bg-2 bg-[#098464] text-center  rounded py-3 px-4 mr-10 hover:bg-[#004C3F]">
+                <button  class=" text-base font-sans font-medium text-white  ">
+                    Try for free
+                </button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
