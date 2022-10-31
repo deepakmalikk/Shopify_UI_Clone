@@ -53,8 +53,8 @@
 <body>
 
     <!-- navbar for small screen -->
-    <div class="sticky top-0 z-50 xl:hidden">
-        <div class="navbar bg-base-100 pt-0 relative ">
+    <div class="sticky top-0 z-50  xl:hidden">
+        <div class="navbar bg-base-100 pt-0 relative bg-[#FBF7ED]">
 
             <div class="flex-1">
                 <img src="./assets/00_shopi_logo.svg" alt="Shopify logo">
@@ -70,7 +70,7 @@
     </div>
     <!-- navbar for large screen -->
     <div class="sticky top-0 z-50 hidden xl:block ">
-        <div class="relative navbar bg-base-100 ">
+        <div class="relative navbar bg-base-100  bg-[#FBF7ED] ">
             <div class="flex-1">
                 <img src="./assets/00_shopi_logo.svg" alt="Shopify logo" class="ml-16 w-auto h-[73px]">
 
@@ -87,21 +87,21 @@
                             <a
                                 class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Sell</a>
                         </a>
-                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu" >
+                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu">
                     </li>
 
                     <li class="flex"><a>
                             <a
                                 class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Market</a>
                         </a>
-                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu" >
+                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu">
                     </li>
 
                     <li class="flex"><a>
                             <a
                                 class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Manage</a>
                         </a>
-                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu" >
+                        <img src="./assets/icons8-expand-arrow-48.png" alt="menu">
                     </li>
                 </ul>
             </div>
@@ -122,16 +122,45 @@
                     <li>
                         <a
                             class="mt-2 text-base font-sans font-medium text-[#363A3F] hover:text-black md:text-xl md:font-semibold">Log
-                            in 
+                            in
                         </a>
                     </li>
-                    
+
             </div>
             <div class="bg-2 bg-[#098464] text-center  rounded py-3 px-4 mr-10 hover:bg-[#004C3F]">
-                <button  class=" text-base font-sans font-medium text-white  ">
+                <button class=" text-base font-sans font-medium text-white  ">
                     Try for free
                 </button>
             </div>
+        </div>
+    </div>
+
+
+
+    <!-- main section -->
+
+    <div class="flex  flex-col  bg-[#FBF7ED]   md:flex-row ">
+        <div class="pt-14 pl-5 grow xl:pl-16 xl:mt-24">
+            <h1 class="text-[35px] text-[#004C3F] leading-10 font-bold w-96 xl:text-5xl xl:w-[600px] ">The easiest way to sell online in India
+            </h1>
+            <p class="pt-7 text-lg text-[#6B7177] pr-10 xl:text-xl xl:w-[560px] xl:pt-10">Try one of the most powerful platforms on the market for free.
+                No technical knowledge needed.</p>
+            <div class="mt-5 flex w-full md:justify-start items-end ">
+                <div class="relative mr-4 md:w-1/2 xl:w-1/2 w-1/2">
+                    <label for="hero-field" class="leading-7 text-sm text-gray-600"></label>
+                    <input type="email" id="hero-field" name="hero-field" placeholder="Enter your email address"
+                        class="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-600  focus:bg-transparent focus:border-green-600 text-base outline-none text-black py-2 px-3 leading-8 ">
+                </div>
+                <button
+                    class="inline-flex text-white text-base font-sans font-medium bg-[#098464] border-0 py-3 px-7 focus:outline-none hover:bg-[#004C3F] rounded   ">Try
+                    for free</button>
+            </div>
+
+            <p class="mt-7 text-xs mr-14 xl:w-[540px] xl:mt-8">Try Shopify free for 3 days, no credit card required. By entering your email,
+                you agree to receive marketing emails from Shopify.</p>
+        </div>
+        <div class="mt-7 ">
+            <img src="./assets/01_add_product.jpg" alt="add product" class="object-fit ml-auto">
         </div>
     </div>
 </body>
